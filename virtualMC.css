@@ -1,0 +1,70 @@
+.imgdiv {
+    border: 2px solid rgb(199, 28, 28);
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+    /* margin: auto; */
+    display: none;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.imgdiv>img {
+    width: 100%;
+}
+
+#mbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#orderid {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    text-align: center;
+    padding: 0px 15px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#orderid>p:last-child {
+    margin-top: -10px;
+    color: aliceblue;
+}
+
+#thx {
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+    color: red;
+}
+
+#cafe {
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 0px;
+    background-color: rgb(217, 35, 35);
+}
+
+label {
+    font-size: 20px;
+    color: rgb(0, 16, 99);
+}
+
+#btn {
+    background-color: rgb(211, 30, 30);
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: antiquewhite;
+}
+
+#btn:hover {
+    color: white;
+    background-color: red;
+}
